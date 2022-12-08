@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML BASIC TABLES</title>
+
+	<style> 
+
+		table, th, tr, td
+		{
+			border:  2px solid red;
+			border-collapse: collapse;
+
+		}
+		th, td
+		{
+			padding:3px;
+
+		}
+		th 
+		{
+			text-align:left;
+			background-color:blue;
+			color:pink;
+
+		}
+		tr
+		{
+			background-color:yellow;
+
+
+		}
+
+
+
+	</style>
+
+
+</head>
+<body>
+	<h2>Basic Table<h2>
+
+	<table style="width:100%">
+		<caption>This is Basic Table</caption>
+		<tr>
+			<th>Name</th>
+			<th>Hp No.</th>
+			<th>Email</th>
+			<th>Address</th>
+        </tr>
+        <tr> 
+        	<td>Nikman Afiq</td>
+        	<td>011612191</td>
+        	<td>man@gmail.com</td>
+        	<td><center><img src="images/1.jpg" style="width:100px"</td>
+
+         </tr>
+        <tr>
+        	<td>Nikman Afiq</td>
+        	<td>0168270697</td>
+        	<td>afiq@gmail.com</td>
+        	<td>Machang</td>
+        </tr>
+
+
+
+	</table>
+
+    <p></p>
+
+    <table>
+
+    <h2>Custamized Size Table</h2>
+
+	<table style="width:100%">
+		<caption>This is Custamizable Table(table column)</caption>
+		<tr>
+			<th style="width:40%">Name</th>
+			<th style="width:20%">Hp No.</th>
+			<th style="width:20%">Email</th>
+			<th style="width:20%">Address</th>
+        </tr>
+        <tr> 
+        	<td>Nikman Afiq</td>
+        	<td>011612191</td>
+        	<td>man@gmail.com</td>
+        	<td>Kelantan</td>
+
+         </tr>
+        <tr style="height: 150px;">
+        	<td>Nikman Afiq</td>
+        	<td>0168270697</td>
+        	<td>afiq@gmail.com</td>
+        	<td>Machang</td>
+        </tr>
+
+
+     </table>
+
+
+    <p></p>
+
+    <h2>Table Colspan</h2>
+    <table>
+    	<tr>
+    	<th>Name</th>
+    	<th Colspan="2">Subject Code</th>
+    </tr>
+    <tr> 
+    	<td>Afiq</td>
+    	<td>IMD311</td>
+    	<td>IMD226</td>
+    </tr>
+
+
+
+    </table>
+
+<p></p>
+<h2>Table Rowspan</h2>
+<table style="width:100%">
+
+	<tr>
+		<th>Name</th>
+		<td>Afiq</td>
+	</tr>
+	<tr> 
+		<th Rowspan="2">Email Address</th>
+		<td>Aiq@gmail.com</td>
+	</tr>
+	<tr> 
+		<td>Man@gamil.com</td>
+
+	</tr>
+
+
+
+
+</body>
+</html>
